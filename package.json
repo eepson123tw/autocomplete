@@ -1,0 +1,23 @@
+{
+  "name": "autocompelete",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "preact": "^10.26.5",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
